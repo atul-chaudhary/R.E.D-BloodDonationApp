@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchView_for_usersAndAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        app:defaultQueryHint="Search Donor By Location"
+        android:singleLine="true"
+        android:focusable="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_for_searchview"
+        app:queryBackground="@android:color/transparent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/find_donor_recyclerView"
+        android:layout_below="@id/searchView_for_usersAndAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

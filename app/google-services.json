@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62996872364",
+    "firebase_url": "https://blackspotsih.firebaseio.com",
+    "project_id": "blackspotsih",
+    "storage_bucket": "blackspotsih.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62996872364:android:dd5bbe4e42be0822",
+        "android_client_info": {
+          "package_name": "com.example.atulc.blackspot_sih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62996872364-ruk4k5t4fggb5fh3f5darjr95gfirl4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atulc.blackspot_sih",
+            "certificate_hash": "40b62ea6a7cfe50b858ea00ebdcf0a952bb180f0"
+          }
+        },
+        {
+          "client_id": "62996872364-nlstton6m54rnfkj0gnc94s4j0jtpe4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0nnit713y1JPfxlNXqAReMIpXRySzXUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62996872364-nlstton6m54rnfkj0gnc94s4j0jtpe4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

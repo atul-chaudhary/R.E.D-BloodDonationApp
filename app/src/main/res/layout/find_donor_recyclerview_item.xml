@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/find_donor_profile_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/find_donor_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16dp"
+        android:text="Robin doz"
+        android:layout_toRightOf="@id/find_donor_profile_pic"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/location1_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location1"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/find_donor_profile_pic"
+        android:layout_below="@id/find_donor_user_name"/>
+
+    <TextView
+        android:id="@+id/location_name_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meerut"
+        android:layout_toRightOf="@id/location1_icon"
+        android:layout_below="@id/find_donor_user_name"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/type_of_blood_of_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="26dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/find_donor_btype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="AB+"
+            android:textColor="#FF275B"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textSize="16dp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/find_donor_mnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 9756516904"
+        android:textColor="@color/primary"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/find_donor_profile_pic"
+        android:layout_below="@id/location1_icon"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="4dp"/>
+
+</RelativeLayout>
