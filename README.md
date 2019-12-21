@@ -1,3 +1,4 @@
+#About the App.
 This App is made for the Smart Miet Hackathon (College Competition) , The main aim of this app is to  develop a reliable platform
 for the donor's and the needy. people this apps uses firebase authencation services and other third party library for performing several tasks<br />
 <br />
